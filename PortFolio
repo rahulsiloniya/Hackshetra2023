@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="homepage.css" type="text/css" />
+
+    <title>Portfolio</title>
+    <script>document.getElementsByClassName(".animation").style.color = 'yellow';
+        setTimeout(function () {
+            document.getElementsByClassName(".animation").style.color = 'red';
+        }, 150);</script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">NIT Student Portal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experience.html">Experiences</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Technical Clubs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Technobyte</a></li>
+                <li><a class="dropdown-item" href="#">Embedded Systems and Robitics</a></li>
+                <li><a class="dropdown-item" href="#">ICell</a></li>
+                <li><a class="dropdown-item" href="#">Antrakrish</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cultutral CLubs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">HLAD</a></li>
+                <li><a class="dropdown-item" href="#">ELAD</a></li>
+                <li><a class="dropdown-item" href="#">MAD</a></li>
+                <li><a class="dropdown-item" href="#">F.A.M</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sports.html">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Personal</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="heroSection">
+        <img
+          class="profileImage"
+          src="https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          alt="Error 404"
+        />
+        <div class="heroSectionDetails">
+          <h1>Student_User</h1>
+          <h3>Student at NIT Kurukshetra</h3>
+        </div>
+      </section>
+      <section class="skillsAndProjects">
+        <div class="skills" id="skills">
+          <h1 class="cardHeading">Skills</h1>
+          <img src="html-svgrepo-com.svg" alt="Error 404" title="HTML" />
+          <img src="css-svgrepo-com.svg" alt="Error 404" title="CSS" />
+          <img src="js-svgrepo-com.svg" alt="Error 404" title="Javascript" />
+          <img src="node-js-svgrepo-com.svg" alt="Error 404" title="Node.Js" />
+          <img
+            src="react-1-logo-svgrepo-com.svg"
+            alt="Error 404"
+            title="React"
+          />
+          <img src="mongodb-svgrepo-com.svg" alt="Error 404" title="MongoDB" />
+          <img
+            src="firebase-svgrepo-com.svg"
+            alt="Error 404"
+            title="Firebase"
+          />
+          <img src="redux-svgrepo-com.svg" alt="Error 404" title="Redux" />
+        </div>
+        <div class="projects" id="projects">
+          <h1 class="cardHeading">Projects</h1>
+          <div class="projectContainer">
+            <img src="css-svgrepo-com.svg" alt="Error 404" />
+            <div class="projectDescription">
+              <h4>Project Name</h4>
+              <p>
+                Some details of the project. Some details of the project. Some
+                details of the project.
+              </p>
+            </div>
+          </div>
+          <div class="projectContainer">
+            <img src="css-svgrepo-com.svg" alt="Error 404" />
+            <div class="projectDescription">
+              <h4>Project Name</h4>
+              <p>Some details of the project</p>
+            </div>
+          </div>
+        </div>
+        <div class="projects" id="projects">
+          <i class="fas servicesIcon fa-clock"></i>
+              <h4 class="card-title mt-3">Website Development</h4>
+              <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+              </p>
+        </div>
+        <div class="projects" id="projects">
+          <i class='fas servicesIcon fa-layer-group'></i>
+          <h4 class="card-title mt-3">Website Design</h4>
+          <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+        </div>
+        <div class="projects" id="projects">
+          <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">SEO</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+        </div>
+        <div class="projects" id="projects">
+          <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">DevOps</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+        </div>
+      </section>
+      <footer class="footer">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Social media -->
+          <div class="social">
+            <!-- Facebook -->
+            <img src="Facebook_f_logo_(2021).svg.png" width="50px" height="50px" style="padding: 0.1vh; margin-left: 5vh">
+            <!--Twitter-->
+            <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" width="50px" height="50px" style="padding: 0.1vh; margin-left: 8vh">
+            <!--Intagram-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" width="50px" height="50px" style="padding: 0.1vh; margin-left: 11vh">
+            <!--Linkedin-->
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="50px" height="50px" style="padding: 0.1vh; margin-left: 13vh">
+          </div>
+          <br>
+          <div class="name">
+            <h4 style="margin-left: 0.5vh; display:inline-block">Facebook</h4>
+            <h4 style="margin-left: 1.5vh; display:inline-block">Twitter</h4>
+            <h4 style="margin-left: 2.5vh; display:inline-block">Instagram</h4>
+            <h4 style="margin-left: 4.2vh; display:inline-block">LinkedIn</h4>
+          </div>
+          <!-- Section: Social media -->
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+        </section>
+        <br>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-white" href="#!" style="width: 100%;">HRK's.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </main>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
+
+
+// CSS
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap);
+
+* {
+  outline: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 800px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0404;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.72) 0%,
+    rgba(255, 255, 255, 0.45) 100%
+  );
+  -webkit-backdrop-filter: saturate(3);
+  backdrop-filter: saturate(3);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(https://wallpaperaccess.com/full/187170.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0.8em;
+  }
+}
+
+main {
+  background-color: rgb(255 255 255 / 31%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1250px;
+  width: 100%;
+  border-radius: 5px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  font-weight: 500;
+  padding: 1rem 1rem 2rem 1rem;
+  overflow: auto;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1.5px solid rgb(255 255 255 / 35%);
+}
+
+.navBar > h1,
+.navBar > navigationMenu {
+  margin: 10px;
+}
+
+.navigationMenu > a {
+  padding: 5px 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.navigationMenu > a:hover {
+  transition: ease-in-out 300ms;
+  background: white;
+}
+
+@media only screen and (max-width: 760px) {
+  .navigationMenu {
+    display: none;
+  }
+}
+
+.heroSection {
+  margin: 2rem 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profileImage {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+.herosectionDetails {
+  text-align: center;
+}
+
+.herosectionDetails > h1 {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.aboutme {
+  margin: 1rem;
+  text-align: center;
+}
+
+.skillsAndProjects {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: [one] 50% [two] 50%;
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 2rem);
+}
+
+@media only screen and (max-width: 720px) {
+  .skillsAndProjects {
+    grid-template-columns: [one] 100%;
+    grid-template-rows: [one] [two];
+  }
+}
+
+.skillsAndProjects > .skills,
+.skillsAndProjects > .projects {
+  min-width: 250px;
+  margin: 1rem;
+  min-height: 250px;
+}
+
+.skillsAndProjects > .skills,
+.skillsAndProjects > .projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(255 255 255 / 31%);
+  border: 1px solid rgb(255 255 255 / 31%);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cardHeading {
+  display: block;
+  width: 90%;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.skillsAndProjects > .skills > img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.skillsAndProjects > .skills > img:hover {
+  transition: ease-in-out 300ms;
+  transform: scale(0.85);
+  cursor: pointer;
+}
+
+.projectContainer {
+  display: flex;
+  width: 90%;
+}
+
+.projectContainer > img {
+  width: 60px;
+  height: 60px;
+  padding-right: 10px;
+}
+
+.projectContainer > .projectDescription > h4 {
+  margin: 0;
+}
+
+.projectContainer > .projectDescription > p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.contactForm {
+  margin: 2rem;
+  width: calc(100% - 4rem);
+  background-color: rgb(255 255 255 / 31%);
+  border: 1px solid rgb(255 255 255 / 31%);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.contactForm > .formGroup {
+  margin-bottom: 1rem;
+}
+
+.formGroup > input,
+.formGroup > textarea {
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 460px) {
+  .profileImage {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+  }
+
+  .herosectionDetails > h1 {
+    font-size: 30px;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+  }
+
+  .herosectionDetails > h3 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+  }
+}
+
+.servicesText.card {
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+#block1{
+  width: 400px;
+  height: 400px;
+}
+#block2{
+  width: fit-content;
+}
