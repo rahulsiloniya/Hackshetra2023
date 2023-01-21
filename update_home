@@ -35,10 +35,10 @@
                   Technical Clubs
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Technobyte</a></li>
-                  <li><a class="dropdown-item" href="#">Embedded Systems and Robitics</a></li>
-                  <li><a class="dropdown-item" href="#">ICell</a></li>
-                  <li><a class="dropdown-item" href="#">Antrakrish</a></li>
+                  <li><a class="dropdown-item" href="https://nitkkr.ac.in/?page_id=1469">Technobyte</a></li>
+                  <li><a class="dropdown-item" href="https://nitkkr.ac.in/?page_id=1464">Embedded Systems and Robitics</a></li>
+                  <li><a class="dropdown-item" href="https://nitkkr.ac.in/?page_id=1437">ICell</a></li>
+                  <li><a class="dropdown-item" href="https://nitkkr.ac.in/?page_id=1488">Antrakrish</a></li>
                   <li><hr class="dropdown-divider"></li>
                 </ul>
               </li>
@@ -47,18 +47,18 @@
                   Cultutral CLubs
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">HLAD</a></li>
-                  <li><a class="dropdown-item" href="#">ELAD</a></li>
-                  <li><a class="dropdown-item" href="#">MAD</a></li>
-                  <li><a class="dropdown-item" href="#">F.A.M</a></li>
+                  <li><a class="dropdown-item" href="https://nitkkr.ac.in/?page_id=1403">HLAD</a></li>
+                  <li><a class="dropdown-item" href="https://nitkkr.ac.in/?page_id=1399">ELAD</a></li>
+                  <li><a class="dropdown-item" href="https://nitkkr.ac.in/?page_id=1397">MAD</a></li>
+                  <li><a class="dropdown-item" href="https://nitkkr.ac.in/?page_id=1393">F.A.M</a></li>
                   <li><hr class="dropdown-divider"></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sports.html">Sports</a>
+                <a class="nav-link" href="sports.html">Schedule</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="post.html" tabindex="-1" aria-disabled="true">Personal</a>
+                <a class="nav-link" href="portfolio.html" aria-disabled="true">Personal</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -73,12 +73,11 @@
     <main>
       <section class="heroSection">
         <div class="heroSectionDetails">
-        <img src="https://png.pngtree.com/element_our/png/20181206/users-vector-icon-png_260862.jpg" alt="Error 404" width="250px" height="250px">
+        <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="Error 404" width="250px" height="250px">
           <h1>Student_User</h1>
         </div>
       </section>
       <section class="aboutme" id="aboutme">
-
       </section>
       <section class="skillsAndProjects">
         <div class="skills" id="skills">
@@ -90,7 +89,7 @@
           </div>
           <div class="button2">
             <div class="col-sm-10">
-              <button type="submit" class="btn btn-primary">Upload Your Grades</button>
+                <button type="submit" class="btn btn-primary"><a href="upload_grades.html" class="anchor">Upload Your Grades</a></button>
             </div>
           </div>
         </div>
@@ -137,45 +136,31 @@
           <!-- Section: Social media -->
           <div class="social">
             <!-- Facebook -->
-            <img src="Facebook_f_logo_(2021).svg.png" width="70px" height="70px" style="padding: 2px; margin-left: 125px">
+            <img src="Facebook_f_logo_(2021).svg.png" width="50px" height="50px" style="padding: 0.1vh; margin-left: 5vh">
             <!--Twitter-->
-            <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" width="70px" height="70px" style="padding: 2px; margin-left: 140px">
+            <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" width="50px" height="50px" style="padding: 0.1vh; margin-left: 8vh">
             <!--Intagram-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" width="70px" height="70px" style="padding: 2px; margin-left: 149px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" width="50px" height="50px" style="padding: 0.1vh; margin-left: 11vh">
             <!--Linkedin-->
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="70px" height="70px" style="padding: 2px; margin-left: 154px">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="50px" height="50px" style="padding: 0.1vh; margin-left: 13vh">
           </div>
           <br>
           <div class="name">
-            <h4 style="margin-left: 104px; display:inline-block">Facebook</h4>
-            <h4 style="margin-left: 108px; display:inline-block">Twitter</h4>
-            <h4 style="margin-left: 112px; display:inline-block">Instagram</h4>
-            <h4 style="margin-left: 116px; display:inline-block">LinkedIn</h4>
+            <h4 style="margin-left: 0.5vh; display:inline-block">Facebook</h4>
+            <h4 style="margin-left: 1.5vh; display:inline-block">Twitter</h4>
+            <h4 style="margin-left: 2.5vh; display:inline-block">Instagram</h4>
+            <h4 style="margin-left: 4.2vh; display:inline-block">LinkedIn</h4>
           </div>
           <!-- Section: Social media -->
           <!-- Section: Links -->
           <section class="">
             <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="home">  
-                <!-- <a href="index.html" class="text-white" style="margin-left:60px; padding:10px;font: size 10px;">Home</a>
-                <a href="experience.html" class="text-white" style="margin-left:60px; padding:10px">Blog</a>
-                <a href="#!" class="text-white" style="margin-left:30px; padding:10px">About</a>
-                <a href="post.html" class="text-white" style="margin-left:30px; padding:10px">Contact Me</a> -->
-                <a href="index.html" class="text-white">Home</a>
-                <a href="index.html" class="text-white">Blog</a>
-                <a href="index.html" class="text-white">About</a>
-                <a href="index.html" class="text-white">Contact Me</a>
-              </div>
-              <!--Grid column-->
-            </div>
         </section>
         <br>
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
           © 2023 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/" style="width: 100%;">HRK's.com</a>
+          <a class="text-white" href="#!" style="width: 100%;">HRK's.com</a>
         </div>
         <!-- Copyright -->
       </footer>
@@ -197,10 +182,7 @@
   </body>
 </html>
 
-
-
-</>CSS
-
+// CSS
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap);
 
 * {
@@ -315,7 +297,7 @@ main::-webkit-scrollbar {
 }
 
 @media only screen and (max-width: 760px) {
-  .navigationMenu {
+  .navbar navbar-expand-lg navbar-light bg-light {
     display: none;
   }
 }
@@ -500,4 +482,21 @@ social{
 
 .name{
   display: inline-block;
+}
+
+.achor{
+  color: red;
+}
+
+a:hover{
+  color: white;
+}
+
+@media only screen and (max-width: 460px) {
+  .footer{
+    margin-left: auto;
+    padding: auto;
+    object-fit: cover;
+    object-position: center;
+  }
 }
